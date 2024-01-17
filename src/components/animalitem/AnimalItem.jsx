@@ -9,9 +9,11 @@ const AnimalItem = ({emoji, name, species, habitat, diet, lifespan, funfact1, fu
         <h3> {diet} </h3>
         <p> {lifespan} </p>
         <div>
-            <p> {funfact1} </p>
-            <p> {funfact2} </p>
-            <p> {funfact3} </p>
+            <ul>
+                <li>{funfact1}</li>
+                <li>{funfact2}</li>
+                <li>{funfact3}</li>
+            </ul>
         </div>
     </div>
     </> 
